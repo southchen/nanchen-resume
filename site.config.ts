@@ -12,7 +12,6 @@ export default siteConfig({
   name: 'Nan Chen Frontend Developer 2022',
   domain: 'nanchen-fe-2022',
   author: 'Nan Chen',
-
   // open graph metadata (optional)
   description: 'Nan Chen Frontend developer CV',
 
