@@ -2,15 +2,15 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'a61686044194443694adcc05567e850f',
+  rootNotionPageId: 'f34e2035a1514258afc1d3ee789d2e8e',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Nan Chen Frontend Developer 2022',
-  domain: 'nanchen-fe-2022',
+  name: 'Nan Chen Frontend Developer 2023',
+  domain: 'nanchen-fe-2023',
   author: 'Nan Chen',
   // open graph metadata (optional)
   description: 'Nan Chen Frontend developer CV',
