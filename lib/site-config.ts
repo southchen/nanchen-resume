@@ -16,6 +16,7 @@ export interface SiteConfig {
   newsletter?: string
   youtube?: string
   zhihu?: string
+  behance?: string
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null

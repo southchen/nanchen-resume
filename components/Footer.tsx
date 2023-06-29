@@ -7,6 +7,7 @@ import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
+import { AiFillBehanceCircle } from '@react-icons/all-files/ai/AiFillBehanceCircle'
 
 import { useDarkMode } from 'lib/use-dark-mode'
 import * as config from 'lib/config'
@@ -121,6 +122,18 @@ export const FooterImpl: React.FC = () => {
             <FaYoutube />
           </a>
         )}
+        {config.behance && (
+          <a
+            className={styles.behance}
+            href={`https://www.behance.net/${config.behance}`}
+            title={`Behance ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <AiFillBehanceCircle />
+          </a>
+        )}
+
       </div>
     </footer>
   )
