@@ -19,6 +19,7 @@ export default siteConfig({
   // twitter: 'transitive_bs',
   github: 'southchen',
   linkedin: 'nan-chen-1517a79a',
+  behance: 'southchen',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
